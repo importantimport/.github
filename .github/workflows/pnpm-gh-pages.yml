@@ -3,9 +3,25 @@ name: PNPM Build and Deploy to GitHub Pages
 on:
   workflow_call:
     inputs:
+      fetch-depth:
+        default: 0
+        required: false
+        type: number
+
+      node-version:
+        default: latest
+        required: false
+        type: string
+
+      pnpm-version:
+        default: latest
+        required: false
+        type: string
+
       cname:
         required: false
         type: string
+
       publish_dir:
         required: false
         type: string
@@ -20,6 +36,10 @@ jobs:
     steps:
       - name: Install
         uses: importantimport/.github/.github/workflows/pnpm-install.yml@main
+        with:
+          fetch-depth: ${{ inputs.fetch-depth }}
+          node-version: ${{ inputs.node-version }}
+          pnpm-version: ${{ inputs.pnpm-version }}
 
       - name: Build
         run: pnpm build
