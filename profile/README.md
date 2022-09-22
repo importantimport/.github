@@ -18,5 +18,5 @@ personal organization for [@kwaa](https://github.com/kwaa)
 
 ## Contact
 
-- matrix: [a]kwaa:matrix.org
-- mailto: kwa[a]kwaa.dev
+- matrix: `[a]kwaa:matrix.org`
+- mailto: `kwa[a]kwaa.dev`
