@@ -12,7 +12,6 @@ on:
     secrets:
       GITHUB_TOKEN:
         required: true
-        type: string
 
 jobs:
   deploy:
