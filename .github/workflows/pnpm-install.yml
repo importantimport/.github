@@ -8,6 +8,10 @@ on:
         required: false
         type: number
 
+      registry-url:
+        required: false
+        type: string
+
       node-version:
         default: latest
         required: false
@@ -31,6 +35,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ inputs.node-version }}
+          registry-url: ${{ inputs.registry-url }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v2.2.2
