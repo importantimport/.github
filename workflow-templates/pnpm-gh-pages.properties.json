@@ -1,6 +1,6 @@
 {
-  "name": "PNPM Build => GitHub Pages",
-  "description": "Build the repo via PNPM and deploy to GitHub Pages.",
+  "name": "PNPM Build and Deploy to GitHub Pages",
+  "description": "Build the repo via PNPM and Deploy to GitHub Pages.",
   "categories": [
     "JavaScript",
     "TypeScript"

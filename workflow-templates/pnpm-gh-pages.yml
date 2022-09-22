@@ -1,4 +1,4 @@
-name: PNPM Build => GitHub Pages
+name: PNPM Build and Deploy to GitHub Pages
 
 on:
   workflow_call:
