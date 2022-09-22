@@ -9,5 +9,3 @@ on:
 jobs:
   deploy:
     uses: importantimport/.github/.github/workflows/pnpm-gh-pages.yml@main
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

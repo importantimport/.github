@@ -9,9 +9,6 @@ on:
       publish_dir:
         required: false
         type: string
-    secrets:
-      GITHUB_TOKEN:
-        required: true
 
 jobs:
   deploy:
