@@ -1,0 +1,11 @@
+{
+  "name": "PNPM Build => GitHub Pages",
+  "description": "Build the repo via PNPM and deploy to GitHub Pages.",
+  "categories": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "filePatterns": [
+    "pnpm-lock.yaml$"
+  ]
+}
