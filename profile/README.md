@@ -18,6 +18,7 @@ personal organization for [@kwaa](https://github.com/kwaa)
 
 - [FFF Flavored Frontmatter](https://github.com/importantimport/fff) - Yet Another Opinionated Frontmatter Variable Specs.
 - [Shiraha](https://github.com/importantimport/shiraha) - A beautiful classless CSS theme/framework with Sugar. [WIP]
+- [Seia](https://github.com/importantimport/seia) - Browser-side Web Component for rendering Webmentions.
 - [A2C](https://github.com/importantimport/a2/tree/main/c) - Aria2 JSON-RPC client with full type definition. [WIP]
 - [Material Color Utilities (fork)](https://github.com/importantimport/material-color-utilities) - Color libraries for Material You [!mportantImport Modified]
 
