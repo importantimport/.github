@@ -22,7 +22,12 @@ personal organization for [@kwaa](https://github.com/kwaa)
 - [A2C](https://github.com/importantimport/a2/tree/main/c) - Aria2 JSON-RPC client with full type definition. [WIP]
 - [Material Color Utilities (fork)](https://github.com/importantimport/material-color-utilities) - Color libraries for Material You [!mportantImport Modified]
 
-## Contact
+## Contact / Donate
 
-- matrix: `[a]kwaa:matrix.org`
-- mailto: `kwa[a]kwaa.dev`
+- Matrix: `[a]kwaa:matrix.org`
+- ETH: `0xaBdB3f715198A4d7e6591b6ebBE8Ccf235e5D752`
+- XMR: `4BBo16A619wCSWS4rsS2gMihjfhi4nTLdabTAwadJFVoBrGU3qhn6kRXSHmBXXfgURJa5mngD5QekDnNkUPhprGv2VwVPqA`
+
+## Sponsors
+
+- [Hubert Chen (Interstellar750)](https://github.com/Interstellar750)
