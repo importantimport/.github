@@ -1,0 +1,51 @@
+name: Publish Lume Site on GitHub Pages
+
+on:
+  workflow_call:
+    inputs:
+      fetch-depth:
+        default: 0
+        required: false
+        type: number
+
+      deno-version:
+        default: vx.x.x
+        required: false
+        type: string
+
+      cname:
+        required: false
+        type: string
+
+      publish_dir:
+        default: _site
+        required: false
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: ${{ inputs.fetch-depth }}
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: ${{ inputs.deno-version }}
+
+      - name: Build Site
+        run: deno task build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ inputs.publish_dir }}
+          cname: ${{ inputs.cname }}
