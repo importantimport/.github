@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If there are any vulnerabilities in **{{cookiecutter.project_name}}**, don't hesitate to _report them_.
+If there are any vulnerabilities, don't hesitate to _report them_.
 
 1. Open an issue.
 2. Describe the vulnerability.
