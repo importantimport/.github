@@ -7,7 +7,7 @@ personal organization for [@kwaa](https://github.com/kwaa)
 ### Starter / Template
 
 - 🌸 [Urara](https://github.com/importantimport/urara) - Sweet & Powerful SvelteKit Blog Starter.
-- ❄ [Lume Theme Shiraha](https://github.com/lume_theme_shiraha) - Material 3-inspired Lume Blog Theme. [WIP]
+- ❄ [Lume Theme Shiraha](https://github.com/importantimport/lume_theme_shiraha) - Material 3-inspired Lume Blog Theme. [WIP]
 - 📓 [Gumori](https://github.com/importantimport/gumori) - Minimal Stylesheets Astro Blog Starter.
 - 🖼️ [Gumori You](https://github.com/importantimport/gumori-you) - Bringing Material Design 3 to the Astro Blog. [INACTIVE]
 
