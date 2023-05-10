@@ -26,7 +26,6 @@ personal organization for [@kwaa](https://github.com/kwaa)
 ## Contact / Donate
 
 - Matrix Spaces: [`#importantimport:matrix.org`](https://matrix.to/#/#importantimport:matrix.org)
-- Matrix: `[a]kwaa:matrix.org`
 - ETH: `0xaBdB3f715198A4d7e6591b6ebBE8Ccf235e5D752`
 - XMR: `4BBo16A619wCSWS4rsS2gMihjfhi4nTLdabTAwadJFVoBrGU3qhn6kRXSHmBXXfgURJa5mngD5QekDnNkUPhprGv2VwVPqA`
 
