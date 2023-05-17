@@ -22,7 +22,8 @@ personal organization for [@kwaa](https://github.com/kwaa)
 - 📩 [Seia](https://github.com/importantimport/seia) - Browser-side Web Component for rendering Webmentions.
 - 📥 [A2C](https://github.com/importantimport/a2/tree/main/c) - Aria2 JSON-RPC client with full type definition.
 - 🔧 [Config](https://github.com/importantimport/config) - Some Shareable Configs for !mportantImport.
-- 🖼️ [Material Color Utilities (fork)](https://github.com/importantimport/material-color-utilities) - Color libraries for Material You [!mportantImport Modified]
+- 🖼 [MCU Extra](https://github.com/importantimport/mcu-extra) - Additional packages to add new features and bug fixes to Material Color Utilities.
+- ~~🖼️ [Material Color Utilities (fork)](https://github.com/importantimport/material-color-utilities) - Color libraries for Material You [!mportantImport Modified]~~ (deprecated)
 
 ## Contact / Donate
 
