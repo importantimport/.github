@@ -21,8 +21,9 @@ personal organization for [@kwaa](https://github.com/kwaa)
 - ❄ [Shiraha](https://github.com/importantimport/shiraha) - Material 3-inspired Classless CSS Framework. [WIP]
 - 📩 [Seia](https://github.com/importantimport/seia) - Browser-side Web Component for rendering Webmentions.
 - 📥 [A2C](https://github.com/importantimport/a2/tree/main/c) - Aria2 JSON-RPC client with full type definition.
-- 🔧 [Config](https://github.com/importantimport/config) - Some Shareable Configs for !mportantImport.
 - 🖼 [MCU Extra](https://github.com/importantimport/mcu-extra) - Additional packages to add new features and bug fixes to Material Color Utilities.
+- 🗜️ [Unplugin Tdewolff Minify Html Literals](https://github.com/importantimport/unplugin-tdewolff-minify-html-literals) - An unplugin to minify HTML template literal strings.
+- 🔧 [Config](https://github.com/importantimport/config) - Some Shareable Configs for !mportantImport.
 - ~~🖼️ [Material Color Utilities (fork)](https://github.com/importantimport/material-color-utilities) - Color libraries for Material You [!mportantImport Modified]~~ (deprecated)
 
 ## Contact / Donate
