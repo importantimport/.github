@@ -32,6 +32,12 @@ personal organization for [@kwaa](https://github.com/kwaa)
 - ETH: `0xaBdB3f715198A4d7e6591b6ebBE8Ccf235e5D752`
 - XMR: `4BBo16A619wCSWS4rsS2gMihjfhi4nTLdabTAwadJFVoBrGU3qhn6kRXSHmBXXfgURJa5mngD5QekDnNkUPhprGv2VwVPqA`
 
+## Become a member
+
+Welcome! If you are already an active contributor to a project, you may be invited to join the !mportantImport.
+
+Or if you are interested in helping to maintain any of the projects, please get in touch via the [Matrix Spaces](#contact--donate).
+
 ## Sponsors
 
 - [Hubert Chen (Interstellar750)](https://github.com/Interstellar750)
