@@ -2,6 +2,11 @@
 
 personal organization for [@kwaa](https://github.com/kwaa)
 
+## Hacktoberfest 2023
+
+In October 2023, I will add the `hacktoberfest-accepted` tag to all merged Pull Requests.
+If you cumulatively submit four PRs to any of the organization's repositories this month, I'll invite you to join !importantImport.
+
 ## Projects
 
 ### Starter / Template
@@ -13,6 +18,7 @@ personal organization for [@kwaa](https://github.com/kwaa)
 
 ### Website / Application
 
+- 🩵 [Hatsu](https://github.com/importantimport/hatsu) - Bring your static site to Fediverse. [WIP]
 - 📥 [A2Z](https://github.com/importantimport/a2/tree/main/z) - Experimental Aria2 frontend. [WIP]
 
 ### Library / Utils
