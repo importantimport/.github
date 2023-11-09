@@ -2,11 +2,6 @@
 
 personal organization for [@kwaa](https://github.com/kwaa)
 
-## [Hacktoberfest 2023](https://hacktoberfest.com/)
-
-In October 2023, I will add the `hacktoberfest-accepted` tag to all merged Pull Requests.
-If you cumulatively submit four PRs to any of the organization's repositories this month, I'll invite you to join !importantImport.
-
 ## Projects
 
 ### Starter / Template
