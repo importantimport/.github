@@ -1,0 +1,54 @@
+name: pnpm-gh-pages-artifact
+
+on:
+  workflow_call:
+    inputs:
+      node-version:
+        default: latest
+        required: false
+        type: string
+
+      build:
+        default: pnpm build
+        required: false
+        type: string
+
+      path:
+        default: dist
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+            run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: ${{ inputs.node-version }}
+      - run: pnpm install --frozen-lockfile
+      - run: ${{ inputs.build }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
